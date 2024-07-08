@@ -1,6 +1,6 @@
 ### Here are some examples of basic Dart programming concepts, including printing, variables, loops, and taking input.
 
-1. Print Statements
+# 1. Print Statements
    ```dart
     void main() {
       print('Hello, World!');
@@ -8,7 +8,7 @@
     }
    ```
 
-2. Variables
+# 2. Variables
    ```dart
      void main() {
       // Declaring variables
@@ -25,7 +25,7 @@
     }
    ```
 
-3. Loops
+# 3. Loops
    
    - For loop:
        ```dart
@@ -48,25 +48,25 @@
        ```
 
 
-4. Input From User
+# 4. Input From User
    
    To take input from the user, you can use the dart:io library.
    ```dart
-   import 'dart:io';
-   
-    void main() {
-        stdout.write('Enter your name: ');
-        String? name = stdin.readLineSync();  // Reading input as a string
+      import 'dart:io';
       
-        stdout.write('Enter your age: ');
-        String? ageInput = stdin.readLineSync();  // Reading input as a string
-        int age = int.parse(ageInput!);  // Converting the string input to an integer
-      
-        print('Hello, $name! You are $age years old.');
-   }
-    ```
+       void main() {
+           stdout.write('Enter your name: ');
+           String? name = stdin.readLineSync();  // Reading input as a string
+         
+           stdout.write('Enter your age: ');
+           String? ageInput = stdin.readLineSync();  // Reading input as a string
+           int age = int.parse(ageInput!);  // Converting the string input to an integer
+         
+           print('Hello, $name! You are $age years old.');
+    }
+   ```
 
-5. Conditional Statements
+# 5. Conditional Statements
 
     ```dart
           void main() {
@@ -80,7 +80,7 @@
           }
     ```
 
-6. Functions
+# 6. Functions
 
     ```dart
         void main() {
@@ -98,7 +98,7 @@
         }
     ```
 
-7. Lists (Arrays)
+# 7. Lists (Arrays)
    
    ```dart
          void main() {
@@ -108,9 +108,9 @@
           print('Number: $number');
         }
       }
-    ```
+   ```
 
-8. Maps (Dictionaries)
+# 8. Maps (Dictionaries)
 
    ```dart
          void main() {
@@ -126,7 +126,7 @@
       }
    ```
    
-9.  Classes and Objects
+# 9.  Classes and Objects
 
     ```dart
           void main() {
@@ -147,5 +147,5 @@
     ```
 
 
-
+These examples cover basic concepts in Dart programming. You can run these snippets to see how each concept works. 
 
